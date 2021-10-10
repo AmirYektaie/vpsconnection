@@ -19,14 +19,14 @@ kill_process()
 
 case $choice in
      start)
-          echo "Thank you"
+          echo "Starting to connect, just wait a minute.....! "
           connect_ssh
-          echo "Your type: on"
+          echo "Now you connect to your VPS"
           ;;
      stop)
-          echo "Ooops"
+          echo "Ooops, Are you Sure???"
           kill_process
-          echo "You type: off"
+          echo "It's done. Feel free"
           ;;
      *)
           echo "Sorry, invalid input"
