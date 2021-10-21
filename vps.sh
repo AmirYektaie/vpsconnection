@@ -7,7 +7,7 @@ read -p "Enter your choice [start/stop]:" choice
 
 connect_ssh ()
 {
-    ssh -p 58432 -D 1375 -N -f root@<Your VPS IP>
+    ssh -p <Destination Port> -D <Dynamic Port> -N -f root@<Your VPS IP>
 }
 
 kill_process()
